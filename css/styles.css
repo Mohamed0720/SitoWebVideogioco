@@ -1,0 +1,27 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(180, 209, 241);
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    background-color: rgb(98, 130, 167);
+    text-align: center;
+    margin: 0;
+    padding: 5;
+    box-sizing: border-box;
+}
