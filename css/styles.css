@@ -8,10 +8,45 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
+    background-color: #0F172A;
+    color: #F8FAFC;
+}
+
+table{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+nav a{
+    background-color: #1E293B;
+    transition: 0.3s;
+    text-decoration: none;
+    padding: 8px 16px;
+    color: #F8FAFC;
+}
+
+nav a:hover{
+    background-color: #FF7A00;
 }
 
 header{
-    background-color: rgb(180, 209, 241);
+    background-color: #1E293B;
+}
+
+.immagineTitolo {
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    margin-left: 30px;
 }
 
 main{
@@ -19,9 +54,30 @@ main{
 }
 
 footer{
-    background-color: rgb(98, 130, 167);
+    background-color: #1E293B;
     text-align: center;
     margin: 0;
     padding: 5;
     box-sizing: border-box;
+}
+
+.testoHome {
+    padding: 15px;
+    max-width: 40%;
+    background-color: #1E293B;
+    border: 1px solid #B4D1F1(128, 124, 124);
+    box-shadow: 2px 2px 10px #B4D1F1(105, 103, 103);
+    border-radius: 10px;
+}
+
+.titoloHome {
+    margin-left: 25px;
+    margin-bottom: 0px;
+}
+
+.titoloPreordina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
 }
